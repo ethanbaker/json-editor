@@ -1,0 +1,64 @@
+html {
+    background: linear-gradient(45deg, #666464, #beb8b8);
+    height: 100%;
+}
+
+textarea {
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.65;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+textarea:focus {
+    border-color: #5b6ba6;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.button button {
+    position: relative;
+    margin: 35px;
+    width: 120px;
+    height: 50px;
+    background: #fa5a5a;
+    border-radius: 4px;
+    box-shadow:0px 4px 0px #E04342;
+    border: 1px solid rgba(0,0,0,0.21);
+}
+
+.button button:focus {
+    outline: none;
+}
+
+.button button:active {
+    background: #a12424;
+    top: 4px;
+}
+
+.preferences {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.preferences h2 {
+    font-size: 1.6em;
+    margin: auto;
+}

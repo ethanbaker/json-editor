@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <textarea name="Editor" id="editor" rows="18"></textarea>
+    <div class="flex">
+        <div class="button">
+            <button id="save">Save</button>
+            <button id="reset">Reset</button>
+            <button id="exit">Exit</button>
+        </div>
+        <br>
+        <div class="preferences">
+            <h2>Preferences</h2>
+            <p>Font</p>
+            <select name="font-family" id="font-family">
+                <option value="arial">Arial</option>
+                <option value="sans-serif">Sans-serif</option>
+                <option value="serif">Serif</option>
+                <option value="helvetica" selected>Helvetica</option>
+                <option value="impact">Impact</option>
+            </select>
+            <p>Size</p>
+            <select name="font-size" id="font-size">
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="14" selected>14</option>
+                <option value="18">18</option>
+                <option value="32">32</option>
+            </select>
+            <p>Color</p>
+            <input type="color" id="color">
+            <br>
+            <button id="save-pref">Save Changes</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

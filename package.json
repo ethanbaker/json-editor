@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "json-editor",
+  "version": "1.0.0",
+  "description": "A way to edit json files from a web browser",
+  "main": "server.js",
+  "author": "Ethan Baker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
